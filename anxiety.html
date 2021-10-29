@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <!--to define an info for the website-->
+    <meta name="description" content="This an awesome websites">
+    <title>Self-Care & Tips </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+
+    <style>
+        .container {
+            width: auto;
+            height: 100vh;
+            font-family: 'Quicksand', san-serif;
+            font-weight: bold;
+            font-size: 20px;
+            display: grid;
+            grid-template: 50px 1fr 1fr 100px / 1fr 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .container div {
+            padding: 10px;
+            border: 1px solid #00000000;
+        }
+        
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        
+        .content-large {
+            grid-row-start: 2;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        
+        .content-small-2 {
+            text-align: center;
+            border-left-width: -10vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .content-small-3 {
+            border-left-width: 25vw;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .content-small-1 {
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .content-small h4 {
+            text-align: left;
+            font-family: poppins;
+            font-size: 18px;
+        }
+        
+        .footer {
+            grid-column: 1/ span 3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <!-- <div class="logo">
+                    <a href="#">ESHC</a>
+                </div> -->
+                <nav>
+                    <a href="index.html">Home</a> <a href="factsheets.html">Fact Sheets</a> <a href="testpage.html">Self-Assessment</a> <a href="tips.html">Tips</a> <a href="chatbotpage.html">Chatbot</a><a href="contactpage.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="banner-2">
+            <h2>Anxiety</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="wrapper">
+                <h2>What is Anxiety ?</h2> <br>
+                <h4>Anxiety is your body’s natural response to stress. It’s a feeling of fear or apprehension about what’s to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous.</h4>
+            </div>
+
+            <div class="container">
+
+                <div class="header"></div>
+
+                <!-- <div class="content-large"> Content #1 </div> -->
+
+                <div class="content-small-1">
+
+                    <img src="img/anxi_1.png">
+
+
+                </div>
+
+                <div class="content-small-2">
+
+                    <img src="img/anx_1.png">
+
+                </div>
+
+                <div class="content-small-3">
+
+                    <img src="img/anx_2.png">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

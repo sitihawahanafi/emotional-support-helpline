@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josenfin+Sans');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*body {
+    color: #421;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New";
+    background: rgba(200, 232, 241, 0.103);
+    /*position: relative;
+    padding-bottom: 58px;
+    /* min-height: 100vh;
+}*/
+
+.wrapper {
+    margin-top: 5%;
+}
+
+.wrapper h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .team_member {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 320px;
+    padding: 20px;
+    line-height: 20px;
+    color: #ebebeb;
+    position: relative;
+}
+
+.team .team_member h3 {
+    color: rgb(94, 88, 88);
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(44, 44, 42, 0.301);
+    color: black;
+    padding: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(44, 44, 42, 0.301);
+    color: black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1,
+.btn2 {
+    color: white;
+}
+
+.btn3,
+.btn4 {
+    color: #fff;
+}
+
+.btn1:hover,
+.btn2:hover {
+    color: #fff;
+}
+
+.btn3:hover,
+.btn4:hover {
+    color: #3498db;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #96eb6f;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1::before,
+.btn3::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn2::before,
+.btn4::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btn3::before,
+.btn4::before {
+    height: 180%;
+}
+
+.btn1:hover::before,
+.btn2:hover::before {
+    height: 180%;
+}
+
+.btn3:hover::before,
+.btn4:hover::before {
+    height: 0%;
+}
